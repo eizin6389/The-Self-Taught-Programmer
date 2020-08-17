@@ -1,0 +1,11 @@
+s= {"百",100,(0,1,2)}
+print(s)
+print(len(s))
+s.add("二百")
+print(s)
+s.discard(100)
+print(s)
+s.pop()
+print(s)
+s.clear()
+print(s)
